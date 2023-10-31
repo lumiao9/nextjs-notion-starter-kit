@@ -10,7 +10,7 @@ export default siteConfig({
 
   // basic site info (required)
   name: '鹿緢',
-  domain: 'lumiao',
+  domain: 'lumiao.love',
   author: '鹿緢',
 
   // open graph metadata (optional)
