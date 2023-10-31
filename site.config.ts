@@ -2,24 +2,25 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'https://held-wallflower-cbf.notion.site/7a981284fff64b3483ecf3e871cb56fa?pvs=4',
+  rootNotionPageId: '7a981284fff64b3483ecf3e871cb56fa4',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
   rootNotionSpaceId: null,
 
   // basic site info (required)
-  name: '前端那些事儿',
+  name: '鹿緢',
   domain: 'lumiao',
   author: '鹿緢',
 
   // open graph metadata (optional)
-  description: 'Example Next.js Notion Starter Kit Site',
+   description: '专注技术、持续学习', // 网站描述
+  socialImageTitle: 'Transitive Bullshit',
+  socialImageSubtitle: 'Hello World! 👋',
 
   // social usernames (optional)
-  twitter: 'transitive_bs',
-  github: 'transitive-bullshit',
-  linkedin: 'fisch2',
+  github: 'lumiao',
+  linkedin: '',
   // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   // youtube: '#', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
